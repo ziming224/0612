@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar>
+    <v-app-bar style="background-color: #5757b1 ;">
       <v-container class="d-flex align-center">
         <v-app-bar-title>番茄鐘</v-app-bar-title>
         <v-btn prepend-icon="mdi-home" to="/">首頁</v-btn>
@@ -49,6 +49,12 @@
     </v-main>
   </v-app>
 </template>
+
+<style>
+.v-main {
+  background-color: #5757b1 !important;
+}
+</style>
 
 <script setup>
 // import CardA from '@/components/CardA.vue'
